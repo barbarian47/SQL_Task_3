@@ -17,7 +17,7 @@ create table if not exists PerformersAlbums (
 create table if not exists Compilations (
 	id serial primary key,
 	Title varchar(80) not null,
-	Date date
+	Year integer not null
 );
 
 create table if not exists CompilationsTracks (
